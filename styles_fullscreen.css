@@ -11,14 +11,14 @@
 :root {
     --header-height: 9rem;  /* FULL SCREEN 22px - normal 7.5rem; */
     --footer-height: 6.25rem;
-    --width: 1900px;  /* FULL SCREEN 1920 */
+    --width: 1920px;  /* FULL SCREEN 1920 */
     --font-size: 30px;  /* FULL SCREEN 22px - normal 16px */
 
 }
 
 html {
     font-size: var(--font-size);
-    margin: -30px;
+    margin: -40px;
     overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    border-bottom: 2.8125rem solid #BC9054; /* 45px */
+    border-bottom: 1rem solid #BC9054; /* 45px */
     box-sizing: border-box;
 }
 
