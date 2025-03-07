@@ -1,0 +1,254 @@
+/* Import the fonts Plus Jakarta Sans from google */
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/plusjakartasans/v1/6ae84d9d-3b5f-4f3d-8b3d-3b4f4e6b1f05.woff2') format('woff2');
+}
+
+
+/* Proportions */
+:root {
+    --header-height: 7.5rem;
+    --footer-height: 6.25rem;
+    --width: 1024px;
+    --font-size: 16px;
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 1.25rem;
+    font-size: var(--font-size);
+}
+
+.slide-container {
+    max-width: var(--width);
+    margin: 1.25rem auto; /* 20px */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 0 4px 8px */
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.slide {
+    background: white;
+    padding: var(--header-height) 2.5rem var(--footer-height) 2.5rem; /* 40px */
+    page-break-after: always;
+    height: calc(var(--width) / 1.7777777777777777777777777777778);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2.8125rem solid #BC9054; /* 45px */
+    box-sizing: border-box;
+}
+
+.header-img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.25rem; /* 20px */
+    border-bottom: 0.125rem solid #3498db; /* 2px */
+    padding-bottom: 0.9375rem; /* 15px */
+    /*max-width:50%;*/
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.25em; /* 36px */
+    margin: 0;
+}
+
+.type-badge {
+    position: absolute;
+    bottom: 2.5rem; /* 40px */
+    left: 2.5rem; /* 40px */
+    background: #3498db;
+    color: white;
+    padding: 0.5rem 0.9375rem; /* 8px 15px */
+    border-radius: 1.25rem; /* 20px */
+    font-weight: bold;
+    font-size: 1.125rem; /* 18px */
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.time {
+    font-size: 1.5rem; /* 24px */
+    color: #7f8c8d;
+    margin-bottom: 1.875rem; /* 30px */
+}
+
+.light {
+    color: #7f8c8d;
+    font-size: 0.875rem; /* 14px */
+}
+
+.content {
+    flex: 1;
+}
+
+.speaker-label {
+    font-size: 1rem; /* 22px */
+    color: #34495e;
+    margin-bottom: 0.5rem; /* 25px */
+    text-transform: uppercase;
+}
+
+.speaker {
+    font-size: 1.375rem; /* 22px */
+    color: #34495e;
+}
+
+.speaker p {
+    margin: 0.5rem 0;
+}
+
+.description {
+    font-size: 1.250rem; /* 18px */
+    color: #555;
+    line-height: 1.6;
+}
+
+.footer {
+    font-size: 1rem; /* 16px */
+    color: #7f8c8d;
+    text-align: center;
+    margin-top: 1.875rem; /* 30px */
+    font-style: italic;
+}
+
+.location {
+    position: absolute;
+    bottom: 2.5rem; /* 40px */
+    left: 2.5rem; /* 40px */
+    background: #f39c12;
+    color: white;
+    padding: 0.5rem 0.9375rem; /* 8px 15px */
+    border-radius: 0.25rem; /* 4px */
+    font-weight: bold;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+}
+
+.logo {
+    width: 40%;
+    height: auto;
+}
+
+/* Specific styles for each session type */
+.registration {
+    background: linear-gradient(to bottom right, #ffffff, #e8f4f8);
+}
+
+.registration .type-badge {
+    background: #2980b9;
+}
+
+.welcome {
+    background: linear-gradient(to bottom right, #ffffff, #e8f8e8);
+}
+
+.welcome .type-badge {
+    background: #27ae60;
+}
+
+.session {
+    background: linear-gradient(to bottom right, #ffffff, #f8e8f8);
+}
+
+.session .type-badge {
+    background: #8e44ad;
+}
+
+.talk {
+    background: linear-gradient(to bottom right, #ffffff, #f8f8e8);
+}
+
+.talk .type-badge {
+    background: #f1c40f;
+    color: #333;
+}
+
+.break {
+    background: linear-gradient(to bottom right, #ffffff, #f8e8e8);
+}
+
+.break .type-badge {
+    background: #e74c3c;
+}
+
+.special-session {
+    background: linear-gradient(to bottom right, #ffffff, #e8f8f8);
+}
+
+.special-session .type-badge {
+    background: #1abc9c;
+}
+
+.poster-session {
+    background: linear-gradient(to bottom right, #ffffff, #f39c12);
+}
+
+.poster-session .type-badge {
+    background: #f39c12;
+}
+
+.closing {
+    background: linear-gradient(to bottom right, #ffffff, #f8e8e8);
+}
+
+.chroma {
+    background: #00ff00;
+}
+
+.closing .type-badge {
+    background: #c0392b;
+}
+
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem auto; /* 20px */
+    max-width: 50rem; /* 800px */
+}
+
+.nav-button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border-radius: 0.25rem; /* 4px */
+    cursor: pointer;
+    font-size: 1rem; /* 16px */
+}
+
+.nav-button:hover {
+    background: #2980b9;
+}
+
+h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
