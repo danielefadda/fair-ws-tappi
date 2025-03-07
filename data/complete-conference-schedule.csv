@@ -2,7 +2,7 @@ Day;Type;Start_Time;End_Time;Title;Speakers;WP_Number;Talk_ID
 Monday;Registration;08:30;09:00;"Registration";"Come get your badge at the registration desk!<br> If you have one come set up your poster.";;
 Monday;Welcome;09:00;09:30;"Welcome and introduction";'Giuseppe Iannaccone <span class="light">Prorettore Vicario UniPI</span> | Marco Conti <span class="light">Presidente CTS FAIR</span> | Paolo Maria Mancarella <span class="light">Direttore Dipartimento di Informatica UniPI</span>| Luigi Ambrosio <span class="light">Direttore SNS</span> | Roberto Scopigno <span class="light">Direttore ISTI-CNR</span> | Andrea Passarella <span class="light">Direttore IIT-CNR</span> | Dino Pedreschi <span class="light">Coordinatore Spoke 1 FAIR - Human-centered AI</span>;;
 Monday;Session;09:30;10:30;"Explainable AI for synergistic human-AI collaboration";"Fosca Giannotti, Riccardo Guidotti";1;
-Monday;Talk;09:40;10:00;"ABEL: An Empathetic & Cognition-Aware Interactive AI";"Federico Galatolo, Lorenzo Cominelli";1;1.1
+Monday;Talk;09:40;10:00;"ABEL<br>An Empathetic & Cognition-Aware Interactive AI";"Federico Galatolo, Lorenzo Cominelli";1;1.1
 Monday;Talk;09:40;10:00;"Transparent AI for healthcare";"Salvatore Rinzivillo, Mario Giovanni Cosimo Antonio Cimino";1;1.2
 Monday;Talk;09:40;10:00;"Bocsor";"Antonio Luca Alfeo";1;1.3
 Monday;Talk;09:40;10:00;"FlocalX";"Mattia Setzu";1;1.4
@@ -10,56 +10,56 @@ Monday;Talk;09:40;10:00;"Illume";"Simone Piaggesi";1;1.5
 Monday;Break;10:30;11:00;"Coffee break";;;
 Monday;Session;11:00;12:00;System 1 and System 2<br> Machine Learning and Reasoning;"Salvatore Ruggieri, Umberto Straccia";2;
 Monday;Talk;09:40;10:00;"Explainable neuro-symbolic systems";"Andrea Pugnana, Francesco Giannini";2;2.1
-Monday;Talk;09:40;10:00;"Exploiting non-standard analysis to empower deep neural networks and reinforcement learning";"Marco Cococcioni, Lorenzo Fiaschi";2;2.2
+Monday;Talk;09:40;10:00;"Exploiting non-standard analysis to empower<br> deep neural networks and reinforcement learning";"Marco Cococcioni, Lorenzo Fiaschi";2;2.2
 Monday;Talk;09:40;10:00;"Mathematical structures in learning models";"Marco Romito, Aikaterini Papagiannouli";2;2.3
 Monday;Session;12:00;13:00;"Human-centered Lifelong <br>Learning for Complex Data";"Alessio Micheli, Fabrizio Sebastiani";3;
 Monday;Talk;09:40;10:00;"XAI of graph neural networks";"Marco Podda";3;3.1
-Monday;Talk;09:40;10:00;"Limitations of vision-language models in object detection and counting";"Nicola Messina";3;3.2
+Monday;Talk;09:40;10:00;"Limitations of vision-language models<br>in object detection and counting";"Nicola Messina";3;3.2
 Monday;Talk;09:40;10:00;"Investigating the semantic abilities and limits of LLMs";"Martina Miliani";3;3.3
 Monday;Break;13:00;14:00;"Lunch break";;;
 Monday;Session;14:00;15:00;"Human-AI Socio-Technical Complex Systems";"Chiara Boldrini, Dino Pedreschi";4;
 Monday;Talk;09:40;10:00;"Y Social: an LLM-powered Social Media Digital Twin";"Erica Cau";4;4.1
-Monday;Talk;09:40;10:00;"What drives AI politicisation? AI debates during 2024 EP elections";"Silvia Keeling";4;4.2
-Monday;Talk;09:40;10:00;"Still in the loop: how auditors navigate the AI paradox.";"Federica De Santis";4;4.3
-Monday;Talk;09:40;10:00;"The key role of workers' participation in the regulation of AI.";"Caterina Pareo";4;4.4
+Monday;Talk;09:40;10:00;"What drives AI politicisation?<br>AI debates during 2024 EP elections";"Silvia Keeling";4;4.2
+Monday;Talk;09:40;10:00;"Still in the loop: how auditors navigate the AI paradox";"Federica De Santis";4;4.3
+Monday;Talk;09:40;10:00;"The key role of workers' participation<br>in the regulation of AI";"Caterina Pareo";4;4.4
 Monday;Talk;09:40;10:00;"Alternative routing and emissions in human mobility";"Giuliano Cornacchia";4;4.5
-Monday;Talk;09:40;10:00;"Signed networks from temporal series and social media data";"Jack Tacchi, Marzio Di Vece";4;4.6
+Monday;Talk;09:40;10:00;"Signed networks<br>from temporal series and social media data";"Jack Tacchi, Marzio Di Vece";4;4.6
 Monday;Special Session;15:00;17:00;"The academic partners of the Spoke";;;
 Monday;Talk;09:40;10:00;"AI in the World of NARNIAN";"Marco Gori, Stefano Melacci";;S1.1
-Monday;Talk;09:40;10:00;"Collaborative Explainable neuro-symbolic AI for Decision Support Assistant.";"Paolo Nesi";;S1.2
-Monday;Talk;09:40;10:00;"MaPLe: Mathematical and Physical approaches to innovative Machine Learning technologies.";"Stefania Bellavia";;S1.3
-Monday;Talk;09:40;10:00;"Co-XAI: Cognitive Sciences meet Explainable AI.";"Giuseppe Riva";;S1.4
-Monday;Talk;09:40;10:00;"Statistical Methods & Reduction Techniques for learning from COmplex STRUCTured data: progress and recent developments.";"Andrea Vandin, Francesca Chiaromonte";;S1.5
+Monday;Talk;09:40;10:00;"Collaborative Explainable neuro-symbolic AI<br>for Decision Support Assistant";"Paolo Nesi";;S1.2
+Monday;Talk;09:40;10:00;"MaPLe: Mathematical and Physical approaches<br>to innovative Machine Learning technologies";"Stefania Bellavia";;S1.3
+Monday;Talk;09:40;10:00;"Co-XAI: Cognitive Sciences meet Explainable AI";"Giuseppe Riva";;S1.4
+Monday;Talk;09:40;10:00;"Statistical Methods & Reduction Techniques<br>for learning from COmplex STRUCTured data:<br>progress and recent developments";"Andrea Vandin, Francesca Chiaromonte";;S1.5
 Monday;Talk;09:40;10:00;"Multi-Scale Node Embeddings for Graph Reconstruction and Generation";"Diego Garlaschelli";;S1.6
 Monday;Special Session;17:00;18:00;"The FAIR innovation grants";;;
 Monday;Talk;09:40;10:00;"Intesa San Paolo @ FAIR: Human-centered AI frameworks for high-risk financial applications";"Paolo Baracco, Francesca Placenti";;S2.1
 Monday;Talk;09:40;10:00;"Deloitte @ FAIR";"Rosa Pia Devanna, Davide Zicca";;S2.2
 Monday;Poster Session;18:00;19:30;"Poster session and aperitif";;;
 Tuesday;Session;09:00;10:00;"Decentralized cooperative learning";"Francesco Marcelloni, Raffaele Perego";5;
-Tuesday;Talk;09:40;10:00;"Resilience of Decentralized Learning to Low-quality Data";"Samuele Sabella";5;5.1
-Tuesday;Talk;09:40;10:00;"Efficient Retrieval over Learned Sparse Representations";"Cosimo Rulli";5;5.2
-Tuesday;Talk;09:40;10:00;"Consistent Post-Hoc Explainability in Federated Learning";"Fabrizio Ruffini";5;5.3
-Tuesday;Talk;09:40;10:00;"Dynamic Hard Pruning of Neural Networks on Resource-Constrained Devices";"Lorenzo Valerio";5;5.4
-Tuesday;Session;10:00;11:00;"Co-design methodologies for<br> trustworthiness by-design";"Anna Monreale, Adriano Fabris";6;
-Tuesday;Talk;09:40;10:00;"Towards a Relational Ethics in AI. The Problem of Agency The Search for Common Principles the Pairing of Human and Artificial Agents";"Elio Grande";6;6.1
-Tuesday;Talk;09:40;10:00;"Analyzing Cultural Traits Values and Ethical Postures in LLM Outputs via Personae and Ideal Types";"Emanuele Fulvio Perri";6;6.2
-Tuesday;Talk;09:40;10:00;"Neural networks in closed-loop systems: Verification using interval arithmetic and formal prover";"Cinzia Bernardeschi";6;6.3
-Tuesday;Talk;09:40;10:00;"PUFFLE: Balancing Privacy Utility and Fairness in Federated Learning";"Luca Corbucci";6;6.4
+Tuesday;Talk;09:40;10:00;"Resilience of Decentralized Learning<br>to Low-quality Data";"Samuele Sabella";5;5.1
+Tuesday;Talk;09:40;10:00;"Efficient Retrieval<br>over Learned Sparse Representations";"Cosimo Rulli";5;5.2
+Tuesday;Talk;09:40;10:00;"Consistent Post-Hoc Explainability<br>in Federated Learning";"Fabrizio Ruffini";5;5.3
+Tuesday;Talk;09:40;10:00;"Dynamic Hard Pruning of Neural Networks<br>on Resource-Constrained Devices";"Lorenzo Valerio";5;5.4
+Tuesday;Session;10:00;11:00;"Co-design methodologies<br>for trustworthiness by-design";"Anna Monreale, Adriano Fabris";6;
+Tuesday;Talk;09:40;10:00;"Towards a Relational Ethics in AI.<br>The Problem of Agency The Search for Common Principles the Pairing of Human and Artificial Agents";"Elio Grande";6;6.1
+Tuesday;Talk;09:40;10:00;"Analyzing Cultural Traits Values and Ethical Postures<br>in LLM Outputs via Personae and Ideal Types";"Emanuele Fulvio Perri";6;6.2
+Tuesday;Talk;09:40;10:00;"Neural networks in closed-loop systems:<br>Verification using interval arithmetic and formal prover";"Cinzia Bernardeschi";6;6.3
+Tuesday;Talk;09:40;10:00;"PUFFLE<br>Balancing Privacy Utility and Fairness<br>in Federated Learning";"Luca Corbucci";6;6.4
 Tuesday;Break;11:00;11:30;"Coffee break";;;
 Tuesday;Session;11:30;13:00;"Empirical studies and pilots <br>of human centered AI";"Francesco Marcelloni, Salvatore Ruggieri";7;
 Tuesday;Talk;09:40;10:00;"How can generative AI help physicists?";"Andrea Rizzi";7;7.1
 Tuesday;Talk;09:40;10:00;"Hi Abel how are you? Interacting with a social robot by means of an LLM-based cognitive architecture";"Francesco Bossi";7;7.2
 Tuesday;Talk;09:40;10:00;"Engineering Relationship Recognition and Extraction";"Vito Giordano";7;7.3
-Tuesday;Talk;09:40;10:00;"Urban Archaeology: AI-controlled robotic arm for classification and selection of archaeological ceramic fragments";"Gabriele Gattiglia";7;7.4
-Tuesday;Talk;09:40;10:00;"Pancreatic ductal adenocarcinoma study with Explainable AI";"Roberto Pellungrini";7;7.5
+Tuesday;Talk;09:40;10:00;"Urban Archaeology:<br>AI-controlled robotic arm for classification<br> and selection of archaeological ceramic fragments";"Gabriele Gattiglia";7;7.4
+Tuesday;Talk;09:40;10:00;"Pancreatic ductal adenocarcinoma study<br>with Explainable AI";"Roberto Pellungrini";7;7.5
 Tuesday;Talk;09:40;10:00;"Geospatial Artificial Intelligence and urban mobility: Predictive modeling and spatial data accuracy";"Antonello Romano";7;7.6
-Tuesday;Talk;09:40;10:00;"Fake News: from Detection to Psychologically-tailored Debunking";"Lucia Passaro";7;7.7
+Tuesday;Talk;09:40;10:00;"Fake News: from Detection <br>to Psychologically-tailored Debunking";"Lucia Passaro";7;7.7
 Tuesday;Break;13:00;14:00;"Lunch break";;;
 Tuesday;Special Session;14:00;15:30;"The Transversal Projects of the Spoke";;;
 Tuesday;Talk;09:40;10:00;"Frontiers of Machine Learning - Lifelong Learning";"Davide Bacciu";;S3.1
-Tuesday;Talk;09:40;10:00;"The Minerva LLM family: why it's needed and what's next";"Roberto Navigli";;S3.2
+Tuesday;Talk;09:40;10:00;"The Minerva LLM family:<br>why it's needed and what's next";"Roberto Navigli";;S3.2
 Tuesday;Talk;09:40;10:00;"Legal and Ethical Design of Trustworthy AI Systems";"Giulia Olivato";;S3.3
-Tuesday;Talk;09:40;10:00;"Learning and Reasoning from Individual to Communities to Society";"TBA";;S3.4
-Tuesday;Special Session;15:30;17:15;"Perspectives of the young researchers of the Spoke";"Flashlight presentations of FAIR's early stage researchers (RTDA), postdocs (assegnisti di ricerca) and PhD students. A collective, colourful account of cutting-edge research on Human-centered AI and a glimpse on its future.";;
+Tuesday;Talk;09:40;10:00;"Learning and Reasoning<br>from Individual to Communities to Society";"TBA";;S3.4
+Tuesday;Special Session;15:30;17:15;"Perspectives of the young researchers of the Spoke";"Flashlight presentations of FAIR's early stage researchers (RTDA), postdocs (assegnisti di ricerca) and PhD students. A collective, colourful account of cutting-edge research on Human-centered AI and a glimpse on its future";;
 Tuesday;Closing;17:15;17:30;"Concluding remarks";"Dino Pedreschi, Francesco Marcelloni";;
 Tuesday;Poster Session;17:30;18:30;"Poster session and aperitif";;;

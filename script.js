@@ -5,7 +5,7 @@ script.onload = () => {
     d3.dsv(';', 'data/complete-conference-schedule.csv').then(data => {
         console.log(data);
 
-        data= data.filter(d => d.Type !== 'Talk');
+        // data= data.filter(d => d.Type !== 'Talk');
 
         const container = d3.select('#app');
 
