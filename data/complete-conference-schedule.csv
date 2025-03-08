@@ -1,4 +1,5 @@
 Day;Type;Start_Time;End_Time;Title;Speakers;WP_Number;Talk_ID
+Monday;Aula Magna, Polo Fibonacci, University of Pisa;08:30;09:00;"Second FAIR Workshop <br>on Human-Centered AI";Pisa, 10-11 March 2025<br> <mark>DAY 1</mark><br><br> Organized by the FAIR - "Future AI Research" partnership, <br>and in collaboration with the Humane-AI network of excellence;;
 Monday;Registration;08:30;09:00;"Registration";"Come get your badge at the registration desk!<br> If you have one come set up your poster.";;
 Monday;Welcome;09:00;09:30;"Welcome and introduction";'Giuseppe Iannaccone <span class="light">Prorettore Vicario UniPI</span> | Marco Conti <span class="light">Presidente CTS FAIR</span> | Paolo Maria Mancarella <span class="light">Direttore Dipartimento di Informatica UniPI</span>| Luigi Ambrosio <span class="light">Direttore SNS</span> | Roberto Scopigno <span class="light">Direttore ISTI-CNR</span> | Andrea Passarella <span class="light">Direttore IIT-CNR</span> | Dino Pedreschi <span class="light">Coordinatore Spoke 1 FAIR - Human-centered AI</span>;;
 Monday;Session;09:30;10:30;"Explainable AI for synergistic human-AI collaboration";"Fosca Giannotti, Riccardo Guidotti";1;
@@ -35,6 +36,7 @@ Monday;Special Session;17:00;18:00;"The FAIR innovation grants";;;
 Monday;Talk;09:40;10:00;"Intesa San Paolo @ FAIR: Human-centered AI frameworks for high-risk financial applications";"Paolo Baracco, Francesca Placenti";;S2.1
 Monday;Talk;09:40;10:00;"Deloitte @ FAIR";"Rosa Pia Devanna, Davide Zicca";;S2.2
 Monday;Poster Session;18:00;19:30;"Poster session and aperitif";;;
+Tuesday;Aula Magna, Polo Fibonacci, University of Pisa;08:30;09:00;"Second FAIR Workshop <br>on Human-Centered AI";Pisa, 10-11 March 2025<br> <mark>DAY 2</mark><br><br> Organized by the FAIR - "Future AI Research" partnership, <br>and in collaboration with the Humane-AI network of excellence;;
 Tuesday;Session;09:00;10:00;"Decentralized cooperative learning";"Francesco Marcelloni, Raffaele Perego";5;
 Tuesday;Talk;09:40;10:00;"Resilience of Decentralized Learning<br>to Low-quality Data";"Samuele Sabella";5;5.1
 Tuesday;Talk;09:40;10:00;"Efficient Retrieval<br>over Learned Sparse Representations";"Cosimo Rulli";5;5.2
