@@ -2,7 +2,7 @@ const script = document.createElement('script');
 script.src = 'https://d3js.org/d3.v7.min.js';
 script.onload = () => {
     // D3 code with semicolon as the delimiter
-    d3.dsv(';', 'data/complete-conference-schedule.csv').then(data => {
+    d3.dsv(';', 'data/schedule.csv').then(data => {
         console.log(data);
 
         data= data.filter(d => d.Type !== 'Talk');
@@ -42,6 +42,9 @@ script.onload = () => {
         descriptions.append('p')
             .html(d => d.Speakers);
 
+        descriptions.append('div')
+            .html(d => (d.Affiliations !== '[]')? d.Affiliations.replaceAll("'","").replaceAll('[','').replaceAll(']',''): '');
+
         slides.append('div')
             .attr('class', 'type-badge')
             .text(d => d.Talk_ID ? `${d.Type} ${d.Talk_ID}` : `${d.Type} ${d.WP_Number}`);
@@ -61,15 +64,19 @@ script.onload = () => {
         };
 
         window.nextSlide = function() {
-            currentIndex = (currentIndex + 1) % slideContainersDOM.length;
-            showSlide(currentIndex);
-
+            // Se non siamo già all'ultima slide, vai alla prossima
+            if (currentIndex < slideContainersDOM.length - 1) {
+                currentIndex += 1;
+                showSlide(currentIndex);
+            }
         };
 
         window.prevSlide = function() {
-            currentIndex = (currentIndex - 1 + slideContainersDOM.length) % slideContainersDOM.length;
-            showSlide(currentIndex);
-
+            // Se non siamo già alla prima slide, vai alla precedente
+            if (currentIndex > 0) {
+                currentIndex -= 1;
+                showSlide(currentIndex);
+            }
         };
 
         document.addEventListener('keydown', function(event) {
