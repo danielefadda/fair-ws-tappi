@@ -1,0 +1,23 @@
+import pandas
+
+
+people = pandas.read_csv("./people.csv")
+schedule = pandas.read_csv("./complete-conference-schedule.csv", delimiter=";")
+
+computed_affiliations = list()
+for _, row in schedule.iterrows():
+  if row["Type"] != "Break" and isinstance(row["Speakers"], str):
+    speakers = row["Speakers"].split(", ")
+    row_affiliations = list()
+    if len(speakers) > 0:
+      for speaker in speakers:
+        speaker_infos = people[people["full_name"] == speaker]
+        if speaker_infos.shape[0] > 0:
+          row_affiliations.append(speaker_infos["affiliation"].values[0])
+  else:
+    row_affiliations = list()
+  
+  computed_affiliations.append(row_affiliations)
+
+schedule["Affiliations"] = computed_affiliations
+schedule.to_csv("schedule.csv", delimiter=";", index=False)
